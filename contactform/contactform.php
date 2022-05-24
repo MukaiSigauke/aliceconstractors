@@ -16,14 +16,14 @@
        $mail->isSMTP();                                      // Set mailer to use SMTP
        $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
        $mail->SMTPAuth = true;                               // Enable SMTP authentication
-       $mail->Username = 'mv.sigauke@gmail.com';                 // SMTP username
+       $mail->Username = 'aliceconstractors@gmail.com';                 // SMTP username
        $mail->Password = '';                           // SMTP password
        $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
        $mail->Port = 587;  
 
        $mail->isHTML(true); 
        $mail->setFrom($email, $name);
-       $mail->addAddress('mv.sigauke@gmail.com', 'Alice contractors'); 
+       $mail->addAddress('aliceconstractors@gmail.com', 'Alice contractors'); 
        $mail->Subject = $subject;
        $mail->Body    =  $message; 
 

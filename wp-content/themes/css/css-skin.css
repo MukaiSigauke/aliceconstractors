@@ -154,7 +154,7 @@
   .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
   .woocommerce #payment #place_order,
   .woocommerce-page #payment #place_order {
-      background-color: blue;
+      background-color: #214761;
       color: white;
   }
 
@@ -223,7 +223,10 @@
   .woocommerce ul.products li.product .added_to_cart:hover,
   .text-color-theme,
   .text-color-theme * {
-      color: blue;
+      color: #214761;
+  }
+  .mgt-button.mgt-style-bordered{
+  	color: #e0f4af;
   }
 
   blockquote,
@@ -242,8 +245,8 @@
   .mgt-button.mgt-style-red:hover,
   .portfolio-item-block .btn,
   .portfolio-item-block .btn:hover {
-      border-color: blue;
-      background-color: #f5f5f5;
+      border-color: #214761;
+      background-color: #214761;
   }
 
   header.main-header {
