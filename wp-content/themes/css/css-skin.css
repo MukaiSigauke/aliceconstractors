@@ -156,6 +156,7 @@
   .woocommerce-page #payment #place_order {
       background-color: #214761;
       color: white;
+      border-left: 8px solid red;
   }
 
   a,
