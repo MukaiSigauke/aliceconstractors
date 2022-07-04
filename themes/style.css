@@ -742,7 +742,7 @@ header .container {
 
 header .col-md-12 {
     display: table;
-    height: 120px;
+    height: 10px;
 }
 
 header .header-left.logo {
@@ -2117,6 +2117,7 @@ footer .footer-menu ul li:last-child {
 .container-fluid-footer {
     padding: 0;
     margin-top: 30px;
+    background-color: black;
 }
 
 .related-works+.container-fluid-footer,
